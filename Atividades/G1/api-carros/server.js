@@ -2,6 +2,7 @@ const express = require('express')
 const port = 3000
 
 const app = express()
+app.use(express.json())
 
 const carsRoutes = require('./routes/carsRoutes')
 const usersRoutes = require('./routes/usersRoutes')

@@ -1,0 +1,55 @@
+{
+    "name": "Gol",
+    "trade": "VolksWagen",
+    "model": "Hatch",
+    "year": "1980"
+}
+
+{
+    "name": "Fusca",
+    "trade": "VolksWagen",
+    "model": "Sedan",
+    "year": "1959"
+}
+
+{
+    "name": "Opala",
+    "trade": "Chevrolet",
+    "model": "Sedan",
+    "year": "1968"
+}
+
+{
+    "name": "Maverick",
+    "trade": "Ford",
+    "model": "Coupe",
+    "year": "1973"
+}
+
+{
+    "name": "Chevette",
+    "trade": "Chevrolet",
+    "model": "Hatch",
+    "year": "1974"
+}
+
+{
+    "name": "Brasília",
+    "trade": "VolksWagen",
+    "model": "Hatch",
+    "year": "1973"
+}
+
+{
+    "name": "Uno",
+    "trade": "Fiat",
+    "model": "Hatch",
+    "year": "1984"
+}
+
+{
+    "name": "Santana",
+    "trade": "VolksWagen",
+    "model": "Sedan",
+    "year": "1984"
+}
