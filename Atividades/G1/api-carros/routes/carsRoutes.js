@@ -8,7 +8,7 @@ router.route('/cars')
     })
     .post((req, res) => {
         const newCar = {
-            id: carsData.length + 1,
+            id: carsData.length++,
             "name": req.body.name,
             "trade": req.body.trade,
             "model": req.body.model,

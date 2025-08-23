@@ -25,7 +25,25 @@ router.route('/users/:id')
             return res.status(404).json({error: 'User not found'})
         res.json(user)
     })
-    .put((req, res) => res.send("Updated user"))
-    .delete((req, res) => res.send("User deleted"))
+    .put((req, res) => {
+        id = parseInt(req.params.id)
+        const user = usersData.find(user => user.id === id)
+
+        const { name, password, userType } = user
+
+        if(name != undefined)
+            user.name = name
+        if(password != undefined)
+            password.name = password
+        if(userType != undefined)
+            userType.name = userType
+    })
+    .delete((req, res) => {
+        const id = parseInt(req.params.id)
+
+        usersData = usersData.filter(user => user.id != id)
+
+        res.status(204).send()
+    })
 
 module.exports = router
