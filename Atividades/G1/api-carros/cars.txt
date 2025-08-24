@@ -1,55 +1,58 @@
-{
-    "name": "Gol",
-    "trade": "VolksWagen",
-    "model": "Hatch",
-    "year": "1980"
-}
-
-{
-    "name": "Fusca",
-    "trade": "VolksWagen",
-    "model": "Sedan",
-    "year": "1959"
-}
-
-{
-    "name": "Opala",
-    "trade": "Chevrolet",
-    "model": "Sedan",
-    "year": "1968"
-}
-
-{
-    "name": "Maverick",
-    "trade": "Ford",
-    "model": "Coupe",
-    "year": "1973"
-}
-
-{
-    "name": "Chevette",
-    "trade": "Chevrolet",
-    "model": "Hatch",
-    "year": "1974"
-}
-
-{
-    "name": "Brasília",
-    "trade": "VolksWagen",
-    "model": "Hatch",
-    "year": "1973"
-}
-
-{
-    "name": "Uno",
-    "trade": "Fiat",
-    "model": "Hatch",
-    "year": "1984"
-}
-
-{
-    "name": "Santana",
-    "trade": "VolksWagen",
-    "model": "Sedan",
-    "year": "1984"
-}
+[
+  {
+    name: "Gol",
+    trade: "VolksWagen",
+    model: "Hatch",
+    year: 1980,
+    price: 35000
+  },
+  {
+    name: "Fusca",
+    trade: "VolksWagen",
+    model: "Hatch",
+    year: 1959,
+    price: 60000
+  },
+  {
+    name: "Opala",
+    trade: "Chevrolet",
+    model: "Sedan",
+    year: 1968,
+    price: 80000
+  },
+  {
+    name: "Maverick",
+    trade: "Ford",
+    model: "Coupe",
+    year: 1973,
+    price: 90000
+  },
+  {
+    name: "Chevette",
+    trade: "Chevrolet",
+    model: "Hatch",
+    year: 1974,
+    price: 45000
+  },
+  {
+    name: "Brasília",
+    trade: "VolksWagen",
+    model: "Hatch",
+    year: 1973,
+    price: 40000
+  },
+  {
+    name: "Uno",
+    trade: "Fiat",
+    model: "Hatch",
+    year: 1984,
+    price: 30000
+  },
+  {
+    name: "Santana",
+    trade: "VolksWagen",
+    model: "Sedan",
+    year: 1984,
+    price: 55000
+  }
+]

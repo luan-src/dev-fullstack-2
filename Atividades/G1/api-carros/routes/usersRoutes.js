@@ -26,23 +26,22 @@ router.route('/users/:id')
         res.json(user)
     })
     .put((req, res) => {
-        id = parseInt(req.params.id)
+        const id = parseInt(req.params.id)
         const user = usersData.find(user => user.id === id)
 
-        const { name, password, userType } = user
+        const { name, password, userType } = req.body
 
         if(name != undefined)
             user.name = name
         if(password != undefined)
-            password.name = password
+            user.password = password
         if(userType != undefined)
-            userType.name = userType
+            user.userType = userType
+        res.json(user)
     })
     .delete((req, res) => {
         const id = parseInt(req.params.id)
-
         usersData = usersData.filter(user => user.id != id)
-
         res.status(204).send()
     })
 
